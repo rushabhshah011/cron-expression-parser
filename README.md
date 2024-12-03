@@ -14,7 +14,7 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/rushabhshah011/cron-expression-parser.git
-   cd cron-expression-parser
+   cd cron-expression-parser/parser
    ```
 
 2. Build the project using Maven:
@@ -34,7 +34,7 @@
 ### Command Format
 
 ```bash
-java -jar parser/target/parser-1.0-SNAPSHOT.jar "<cron_expression>"
+java -jar target/parser-1.0-SNAPSHOT.jar "<cron_expression>"
 ```
 
 ### Example
@@ -42,7 +42,7 @@ java -jar parser/target/parser-1.0-SNAPSHOT.jar "<cron_expression>"
 #### Input
 
 ```bash
-java -jar parser/target/parser-1.0-SNAPSHOT.jar "*/15 0 1,15 * 1-5 /usr/bin/find"
+java -jar target/parser-1.0-SNAPSHOT.jar "*/15 0 1,15 * 1-5 /usr/bin/find"
 ```
 
 #### Output
